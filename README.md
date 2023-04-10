@@ -6,6 +6,11 @@ Simple Node JS tutorial
 - NodeJs Documentation: https://nodejs.dev/en/learn/
 - NodeJs Installation Guide: https://nodejs.org/en/download
 
+#### Post-Installation
+- visit/create dedicated folder
+  - npm i nodemon
+  - npm i express
+  - npm i {necessary packages}
 <hr>
 
 ## Topics

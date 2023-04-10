@@ -11,6 +11,7 @@ Simple Node JS tutorial
   - npm i nodemon
   - npm i express
   - npm i {necessary packages}
+  - nodemon or node {name of main file}
 <hr>
 
 ## Topics

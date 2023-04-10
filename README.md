@@ -9,6 +9,7 @@ Simple Node JS tutorial
 
 ## Topics
 - Day-1
+  - arrays
   - conditional statements
   - operators
   - loops

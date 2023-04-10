@@ -8,10 +8,10 @@ Simple Node JS tutorial
 <hr>
 
 ## Topics
-* Day-1
-- conditional statements
-- operators
-- loops
-- functions
-- classes
-- node js basic server with text, json and html page
+- Day-1
+  - conditional statements
+  - operators
+  - loops
+  - functions
+  - classes
+  - node js basic server with text, json and html page

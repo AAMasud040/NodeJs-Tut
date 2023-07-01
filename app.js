@@ -1,22 +1,20 @@
-// Import required modules
 const express = require('express');
 const path = require('path');
 
-// Create an instance of Express app
 const app = express();
 
-// Middleware
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public'))); // Serve static files from "public" folder
+app.set('view engine', 'ejs')
 
-// Send HTML file
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  let num = Math.floor(Math.random() * 1000)
+  let name_array = ['Saad','Fahad','Shorower','Sakib','Tanvir']
+  let n = name_array[Math.floor(Math.random() * name_array.length)]
+  
+  res.render('index.ejs',{data: num, _name: n});
 });
 
-// Start the server
-const port = process.env.PORT || 3000;
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+app.listen(3000, () => {
+  console.log(`Server running on port 3000`);
 });
+
+
